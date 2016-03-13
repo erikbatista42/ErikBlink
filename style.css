@@ -1,0 +1,23 @@
+.nav1 {
+	
+	text-decoration: none;
+	position: absolute;
+	right: 60px;
+	top: 25px;
+	color: black;
+	list-style: none;
+
+}
+.nav1 > li {
+	padding-right: 20px;
+	padding-top: 10px;
+	display: inline;
+	font-size: 13px;
+}
+#div1 {
+	height: 81px;
+	width: 100%;
+	color: black;
+	background-color: black;
+	
+}
