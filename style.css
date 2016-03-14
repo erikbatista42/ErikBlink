@@ -13,11 +13,14 @@
 	padding-top: 10px;
 	display: inline;
 	font-size: 13px;
+	color: white;
+}
+.nav1 > li:hover {
+	color: rgb(22, 180, 191);
 }
 #div1 {
 	height: 81px;
 	width: 100%;
 	color: black;
 	background-color: black;
-	
 }
