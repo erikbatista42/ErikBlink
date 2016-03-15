@@ -10,6 +10,7 @@
 	width: 330px;
 	height: 81px;
 
+
 }
 .nav1 > li {
 	padding-right: 20px;
@@ -17,7 +18,7 @@
 	padding-bottom: 20px;
 	display: inline;
 	font-size: 12.8px;
-	color: white;
+	color: #ffffff;
 	font-weight: bold;
 	font-family: sans-serif;
 	text-align: center;
@@ -31,7 +32,7 @@
 	width: 100%;
 	color: black;
 	background-color: black;
-	opacity: 0.4;
+	opacity: 0.5;
 	position: absolute;
 	right: 0px;
 	top: 0px;
@@ -40,5 +41,32 @@
 	position: absolute;
 	left: 94px;
 	top: 32px;
+	color: white;
 }
 /*NAVBAR1 ENDS*/
+
+/*-------------------------------------*/
+body {
+	background-image: url(http://blinkss.com/ui/images/descente_home.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 270px;
+}
+/*SIDE BUTTONS*/
+#left-nav {
+	color: red;
+	width: 100px;
+	height: 100px;
+	float: left;
+	position: absolute;
+	top: 380px;
+	left: 0px;
+}
+#img1 {
+	color: green;
+	padding-bottom: 0px;
+	
+}
+#img1:hover {
+	color: blue;
+}
