@@ -5,7 +5,7 @@
 	position: absolute;
 	right: 90px;
 	top: 25px;
-	color: black;
+	color: rgb(255, 255, 255);
 	list-style: none;
 	width: 330px;
 	height: 81px;
@@ -18,7 +18,7 @@
 	padding-bottom: 20px;
 	display: inline;
 	font-size: 12.8px;
-	color: #ffffff;
+	color: rgb(255, 255, 255);
 	font-weight: bold;
 	font-family: sans-serif;
 	text-align: center;
@@ -30,9 +30,8 @@
 #div1 {
 	height: 81px;
 	width: 100%;
-	color: black;
 	background-color: black;
-	opacity: 0.5;
+	opacity: 0.4;
 	position: absolute;
 	right: 0px;
 	top: 0px;
@@ -63,10 +62,21 @@ body {
 	left: 0px;
 }
 #img1 {
+	position: absolute;
+	top: -75px;
 	color: green;
-	padding-bottom: 0px;
-	
+	margin-bottom: 0px;
 }
 #img1:hover {
 	color: blue;
+}
+{
+	height: 10%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.4;
+	position: absolute;
+	
+	
+	
 }
