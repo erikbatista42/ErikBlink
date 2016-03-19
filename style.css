@@ -1,6 +1,5 @@
 /*NAVBAR1*/
 .nav1 {
-	
 	text-decoration: none;
 	position: absolute;
 	right: 90px;
@@ -9,8 +8,6 @@
 	list-style: none;
 	width: 330px;
 	height: 81px;
-
-
 }
 .nav1 > li {
 	padding-right: 20px;
@@ -18,11 +15,10 @@
 	padding-bottom: 20px;
 	display: inline;
 	font-size: 12.8px;
-	color: rgb(255, 255, 255);
+	color: rgba(255, 255, 255);
 	font-weight: bold;
 	font-family: sans-serif;
 	text-align: center;
-
 }
 .nav1 > li:hover {
 	color: rgb(22, 180, 191);
@@ -31,7 +27,7 @@
 	height: 81px;
 	width: 100%;
 	background-color: black;
-	opacity: 0.4;
+	opacity: 0.8;
 	position: absolute;
 	right: 0px;
 	top: 0px;
@@ -40,7 +36,7 @@
 	position: absolute;
 	left: 94px;
 	top: 32px;
-	color: white;
+	color: black;
 }
 /*NAVBAR1 ENDS*/
 
@@ -63,20 +59,83 @@ body {
 }
 #img1 {
 	position: absolute;
-	top: -75px;
-	color: green;
+	top: 5px;
+	
 	margin-bottom: 0px;
 }
 #img1:hover {
-	color: blue;
+	background-color: white;
 }
-{
-	height: 10%;
-	width: 100%;
-	background-color: black;
-	opacity: 0.4;
+#img2 {
 	position: absolute;
-	
-	
+	top: 80px;
+	left: 0px;
+}
+#img3 {
+position: absolute;
+	top: 155px;
+	left: 0px;
+}
+#img3:hover {
+	background-color: white;
+/*SIDE BUTTONS ENDS*/
+
+/*FOOTER*/
+}
+footer {
+	height: 44px;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	position: absolute;
+	top: 911px;
+	right: 0px;
+	left: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.footer {
+	opacity: 0.8;
+}
+h3 {
+	position: absolute;
+	top: 20px;
+	font-size: 14px;
+	left: 70px;
+	font-weight: bolder;
+	height: 18px;
+	font-family: sans-serif;
 	
 }
+.nav2 {
+	display: inline;
+	list-style-type: none;
+	text-decoration: none;
+	float: right;
+	font-family: serif;
+	font-color: white;
+	font-size: 13px;
+	padding-bottom: 0px;
+	opacity: 2.0;
+	position: absolute;
+	top: 20px;
+	right: 100px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+ul,li, a {
+	display: inline;
+	color: white;
+	text-decoration: none;
+	opacity: 2.0
+	margin-right: 5px;
+	
+	display: inline-block;
+}
+.nav2 > li >a:hover {
+	display: inline;
+	color: white;
+	color: rgb(22, 180, 191);
+}
+/*FOOTER ENDS*/
